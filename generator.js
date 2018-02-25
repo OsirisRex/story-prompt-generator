@@ -26,8 +26,8 @@ var test = [
   'Yelling',
   'Zero',
 ]
-var randomNumber = Math.floor(Math.random() * (test.length));
 
 function newPrompt() {
-
+  var randomNumber = Math.floor(Math.random() * (test.length));
+  document.getElementByID('promptDisplay').innerHTML = test[randomNumber];
 }
