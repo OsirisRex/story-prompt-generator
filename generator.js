@@ -29,5 +29,7 @@ var test = [
 
 function newPrompt() {
   var randomNumber = Math.floor(Math.random() * (test.length));
-  document.getElementByID('promptDisplay').innerHTML = test[randomNumber];
+  console.log(randomNumber);
+  document.getElementById('promptDisplay').innerHTML = test[randomNumber];
+  console.log(test[randomNumber]);
 }
