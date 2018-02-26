@@ -1,35 +1,11 @@
-var test = [
-  'Apple',
-  'Banana',
-  'Cabbage',
-  'Dead Fish',
-  'Elephant',
-  'Fish',
-  'Goldfish',
-  'Hot Pepper',
-  'Iguana',
-  'Jellyfish',
-  'Killer Kangaroos',
-  'Lionfish',
-  'Monkey',
-  'Neon',
-  'Octopus',
-  'Potato',
-  'Quill',
-  'Read',
-  'Snake',
-  'Trouble',
-  'Umbrella',
-  'Vulture',
-  'Water',
-  'Xerox',
-  'Yelling',
-  'Zero',
+var person = [
+  'Murderer',
+  'Victim',
 ]
 
 function newPrompt() {
-  var randomNumber = Math.floor(Math.random() * (test.length));
-  console.log(randomNumber);
-  document.getElementById('promptDisplay').innerHTML = test[randomNumber];
-  console.log(test[randomNumber]);
+  var randomNumber1 = Math.floor(Math.random() * (person.length));
+  var randomNumber2 = Math.floor(Math.random() * (person.length));
+  document.getElementById('Person1').innerHTML = person[randomNumber1];
+  document.getElementById('Person2').innerHTML = person[randomNumber2];
 }
