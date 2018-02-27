@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body {
+  margin-left: 10%;
+  margin-right: 10%
+}
+h1{
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 400%;
+  color: #ffae00;
+}
+p,.Output {
+  font-family: 'Arial';
+}
+img{
+  border-radius: 25px;
+}
+hr {
+  border-color: #224563;
+  border-width: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
