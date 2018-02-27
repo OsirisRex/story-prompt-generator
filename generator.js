@@ -1,9 +1,9 @@
 var person = [
   'Murderer',
   'Victim',
-  'Someone lost',
-  'A girl who just lost her mother',
-  'A boy who just lost his father',
+  'lost person',
+  'girl who just lost her mother',
+  'boy who just lost his father',
 ]
 var images = [
   'Images/barn1.jpg',
