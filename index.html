@@ -3,28 +3,50 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Writing Excersise Generator</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>Writing Excersise Prompt Generator</h1>
-    <p>
-      Click the button to randomly generate a writing excersise prompt. Don't like what you get? Just click again for a new prompt! (Note: this is still in development and does not work)
-    </p>
+    <table>
+      <tr>
+        <td>
+          <p>
+            Click the button to randomly generate a writing excersise prompt. Don't like what you get? Just click again for a new prompt! (Note: this is still in development)
+          </p>
+        </td>
+        <td>
+          <button onclick="newPrompt()">New Prompt</button>
+        </td>
+      </tr>
+    </table>
+    <center>
     <hr/>
-    <img id="image" width="25%">
-    <p>
-      Write about the image from the point of a
-    </p>
-    <div id="Person1">
-      <!-- Person 1 displayed here -->
-    </div>
-    <p>
-      and a
-    </p>
-    <div id="Person2">
-      <!-- Person 2 displayed here -->
-    </div>
-    <hr/>
-    <button onclick="newPrompt()">New Prompt</button>
+      <img id="image" width="25%">
+    <table>
+      <tr>
+        <td>
+          <p>
+            Write about the image from the point of a
+          </p>
+        </td>
+        <td>
+          <div id="Person1" class="Output">
+            <!-- Person 1 displayed here -->
+          </div>
+        </td>
+        <td>
+          <p>
+            and a
+          </p>
+        </td>
+        <td>
+          <div id="Person2" class="Output">
+            <!-- Person 2 displayed here -->
+          </div>
+        </td>
+      </tr>
+    </table>
+    </center>
 
     <script src="generator.js"></script>
   </body>
