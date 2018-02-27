@@ -3,12 +3,13 @@
 body {
   margin-left: 10%;
   margin-right: 10%;
+  background-color: #78c4e2;
 }
 h1{
   font-family: 'Amatic SC', cursive;
   text-align: center;
   font-size: 400%;
-  color: #ffae00;
+  color: #fff600;
 }
 p,.Output {
   font-family: 'Arial';
