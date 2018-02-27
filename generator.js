@@ -12,7 +12,7 @@ var images = [
   'Images/lighthouse1.jpg',
   'Images/city1.jpg',
   'Images/street2.jpg',
-  'Images/village1'
+  'Images/village1.jpg'
 ]
 function newPrompt() {
   var randomNumber1 = Math.floor(Math.random() * (person.length));
